@@ -5,10 +5,10 @@ from datetime import datetime
 from selenium import webdriver
 from sys import exit
 
-login_id = 'goulaobangzi@gmail.com'
-login_password = 'wzx620625'
+login_id = 'login_idm'
+login_password = 'login_password'
 item_url = 'https://www.amazon.ca/B-spaces-Battat-Organizer-Furniture/dp/B071FT91BJ/'
-limit_value = 200.00  # 最低金額
+limit_value = 200.00  # Max purchase Price
 delay_time = int(60)  # Delay time in second
 
 
